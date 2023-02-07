@@ -1,13 +1,13 @@
 // Задание 3. 11:30 - 12:20
 function IntPad(int){
-    var Num = String(int);
-    var NumArr = [];
+    const Num = String(int);
+    const NumArr = [];
     for (var i = 0; i < Num.length; i++) {
         myNumArr.push(Num.charAt(i));
     }
     
-    var end = NumArr[NumArr.length-1]; 
-    var penult = NumArr[NumArr.length-2];
+    const end = NumArr[NumArr.length-1]; 
+    const penult = NumArr[NumArr.length-2];
     
     if ((end >=5 && end <= 9) ||  (end === "0") ||
         (end ==1 && penult == 1) ||

@@ -9,13 +9,13 @@ function intPad(int){
         (end ==1 && penult == 1) ||
         (end >=2 && end <= 4 && penult == 1))
     {
-        console.log (int +" компьютеров");
+        return int + ' компьютеров'
     } 
     if (end == 1 && penult !=1) {
-        console.log (int + " компьютер")
+        return int + ' компьютер'
     }
     if (end >=2 && end <= 4 && penult != 1) {
-        console.log(int + " компьютера")
+        return int + ' компьютера'
     }
 }
-intPad(61)
+console.log(intPad(61))

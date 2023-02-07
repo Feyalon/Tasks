@@ -1,17 +1,11 @@
 
 // Задание 1. Начало 11:00 - 11:10
-a = [
+const a = [
     "Москва",
     "Санкт-Петербург",
     "Воронеж"
 ]
-console.log(a.join() + ".")
-
-
-
-
-
-
-
-
-
+function joinCities(array){
+    return array.join(', ') + "+"
+}   
+console.log(joinCities(a))

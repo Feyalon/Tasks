@@ -3,7 +3,7 @@ function IntPad(int){
     const Num = String(int);
     const NumArr = [];
     for (var i = 0; i < Num.length; i++) {
-        myNumArr.push(Num.charAt(i));
+        NumArr.push(Num.charAt(i));
     }
     
     const end = NumArr[NumArr.length-1]; 

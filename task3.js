@@ -18,4 +18,4 @@ function intPad(int){
         console.log(int + " компьютера")
     }
 }
-IntPad(61)
+intPad(61)

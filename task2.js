@@ -3,8 +3,8 @@
 const number = 27.8; 
  
   
- function roundNumb(numb) { 
-     let five = numb % 5; 
+ function roundNumber(numb) { 
+     const five = numb % 5; 
      
      if (five === 0) { 
          return numb; 
@@ -12,8 +12,9 @@ const number = 27.8;
          return (numb-five+5); 
      } else { 
          if (five < 2.5){ 
-         return (numb-five)} 
-     } 
-     } 
+         return (numb-five)
+         } 
+      } 
+   } 
   
-console.log(roundNumb(number)); 
+console.log(roundNumber(number)); 

@@ -3,16 +3,16 @@
 const number = 27.8; 
  
   
- function roundNumber(numb) { 
-     const five = numb % 5; 
+ function roundNumber(int) { 
+     const five = int % 5; 
      
      if (five === 0) { 
-         return numb; 
+         return int; 
      } else if (five >= 2.5) { 
-         return (numb-five+5); 
+         return (int-five+5); 
      } else { 
          if (five < 2.5){ 
-         return (numb-five)
+         return (int-five)
          } 
       } 
    } 

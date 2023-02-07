@@ -1,10 +1,10 @@
 // Задание 2. 11:10 - 11:30
 
-var number = 27.8; 
+const number = 27.8; 
  
   
  function roundNumb(numb) { 
-     var five = numb % 5; 
+     let five = numb % 5; 
      
      if (five === 0) { 
          return numb; 
